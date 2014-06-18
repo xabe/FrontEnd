@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Jquery</title>
+        <meta name="description" content="Ejemplo de jquery con multipart form">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="../css/normalize.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+		<section>
+		
+			<form enctype="multipart/form-data" class="form">
+				<div class="form-header">
+					<label>Formulario MultiPart Jquery</label>
+				</div>
+				<div class="form-content">
+					<div class="messages">
+						<div class="alert-box error" ><span>Error: </span>Error al enviar el formulario</div>
+						<div class="alert-box success" ><span>Exito: </span>Se ha insertado correctamente</div>
+					</div>
+					<div class="form-group">
+						<label>Nombre</label>
+						<input name='nombre' type='text' placeholder="Nombre" />
+					</div>
+					<div class="form-group">
+						<label>Fichero</label>		
+						<div class="subir">
+							<input id="uploadFile" placeholder="Elige un fichero" disabled="disabled" />
+							<div class="fileUpload button">
+								<span>Subir</span>
+								<input id="uploadBtn" type="file" class="upload" />
+							</div>
+						</div>						
+					</div>					
+				</div>
+				<div class="form-footer">
+					<button>Submit</button>
+				</div>
+			</form>
+		
+		</section>		
+		<script src="../js/vendor/jquery-1.11.0.min.js"></script>
+        <script src="../js/jquery.js"></script>
+    </body>
+</html>

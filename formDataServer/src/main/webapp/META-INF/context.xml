@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">
+	<!-- Java DataSource -->
+<!--     <Resource name="jdbc/formData" -->
+<!-- 		validationQuery="select 1 from dual"  -->
+<!-- 		auth="Container" -->
+<!-- 		driverClassName="com.mysql.jdbc.Driver" -->
+<!-- 		factory="com.jolbox.bonecp.BoneCPDataSource" -->
+<!-- 		type="javax.sql.DataSource" -->
+<!-- 		username="root"  -->
+<!-- 		password="root" -->
+<!-- 		jdbcUrl="jdbc:mysql://localhost:3306/KE"  -->
+<!-- 		idleConnectionTestPeriodInMinutes="1" -->
+<!-- 		idleMaxAgeInMinutes="240"  -->
+<!-- 		maxConnectionsPerPartition="30"  -->
+<!-- 		minConnectionsPerPartition="10" -->
+<!-- 		partitionCount="3"  -->
+<!-- 		acquireIncrement="5"  -->
+<!-- 		statementsCacheSize="100"  -->
+<!-- 		releaseHelperThreads="0" /> -->
+		
+</Context>
